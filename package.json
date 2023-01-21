@@ -1,7 +1,7 @@
 {
-  "name": "ribo",
-  "version": "0.0.0-alpha.1",
-  "repository": "git@github.com:RicardoFredes/ribo.git",
+  "name": "ribof",
+  "version": "0.0.0-alpha.2",
+  "repository": "git@github.com:RicardoFredes/ribof.git",
   "author": "fredes <ricardofredes@gmail.com>",
   "license": "MIT",
   "files": [
@@ -11,6 +11,7 @@
   "scripts": {
     "test": "jest",
     "build": "sh scripts/build.sh",
+    "npm-publish": "sh scripts/publish.sh",
     "lint": "eslint"
   },
   "workspaces": [

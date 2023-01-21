@@ -1,5 +1,5 @@
-import constraints from "constraints";
 import { useEffect, useState } from "react";
+import { constraints } from "../imports";
 import { ConstraintsProps } from "./constraints-content.types";
 
 const ConstraintsContent = ({ active, children, ...props }: ConstraintsProps) => {

@@ -1,5 +1,5 @@
-import jsonSchemaModifier from "json-schema-modifier";
 import useSWR from "swr";
+import { jsonSchemaModifier } from "../imports";
 import {
   AsyncContentComponentProps,
   AsyncContentDataProps,
