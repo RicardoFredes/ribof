@@ -14,7 +14,7 @@
     "lint": "eslint"
   },
   "workspaces": [
-    "packages/core",
+    "packages/ribo",
     "packages/json-schema-modifier",
     "packages/constraints"
   ],

@@ -5,7 +5,7 @@ mkdir dist
 # build
 npm run build --workspaces
 
-cp -r packages/core/dist dist/core
+cp -r packages/ribo/dist dist/ribo
 cp -r packages/constraints/dist dist/constraints
 cp -r packages/json-schema-modifier/dist dist/json-schema-modifier
 
