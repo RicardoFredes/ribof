@@ -1,0 +1,7 @@
+{
+  "extends": ["plugin:prettier/recommended"],
+  "rules": {
+    "react/display-name": "off",
+    "react-hooks/exhaustive-deps": "off"
+  }
+}

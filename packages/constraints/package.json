@@ -1,0 +1,28 @@
+{
+  "name": "@fredes/constraints",
+  "version": "1.0.0",
+  "description": "Audience segmentation in a breeze!",
+  "keywords": [
+    "constraints",
+    "audience",
+    "segmentation"
+  ],
+  "private": true,
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Ricardo Fredes",
+      "email": "ricardo.fredes@gmail.com"
+    }
+  ],
+  "files": [
+    "dist/**/*"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "semantic-release": "semantic-release"
+  }
+}
