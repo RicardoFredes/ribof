@@ -1,4 +1,4 @@
-import { Rules } from "@fredes/constraints";
+import { Rules } from "constraints";
 
 interface RiboControllerOptions {
   name?: string;

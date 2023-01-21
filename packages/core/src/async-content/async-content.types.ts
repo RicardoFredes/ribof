@@ -1,4 +1,4 @@
-import { Modifiers } from "@fredes/json-schema-modifier";
+import { Modifiers } from "json-schema-modifier";
 import { ComponentType } from "react";
 
 export interface AsyncContentDataProps {

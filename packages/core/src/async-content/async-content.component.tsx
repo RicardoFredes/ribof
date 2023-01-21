@@ -1,4 +1,4 @@
-import jsonSchemaModifier from "@fredes/json-schema-modifier";
+import jsonSchemaModifier from "json-schema-modifier";
 import useSWR from "swr";
 import {
   AsyncContentComponentProps,

@@ -28,7 +28,7 @@
 Para adicionar o Ribo aos projetos, rode o seguinte comando:
 
 ```bash
-$ yarn add @fredes/ribo
+$ yarn add ribo
 ```
 
 Importando o RIBO:

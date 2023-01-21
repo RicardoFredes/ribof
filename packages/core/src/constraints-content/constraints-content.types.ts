@@ -1,4 +1,4 @@
-import type { Input, Rules } from "@fredes/constraints";
+import type { Input, Rules } from "constraints";
 
 export interface ConstraintsProps {
   rules: Rules;

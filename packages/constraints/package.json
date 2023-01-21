@@ -1,5 +1,5 @@
 {
-  "name": "@fredes/constraints",
+  "name": "constraints",
   "version": "1.0.0",
   "description": "Audience segmentation in a breeze!",
   "keywords": [
@@ -7,7 +7,6 @@
     "audience",
     "segmentation"
   ],
-  "private": true,
   "license": "MIT",
   "contributors": [
     {

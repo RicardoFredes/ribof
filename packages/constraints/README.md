@@ -12,13 +12,13 @@ Biblioteca para segmentação de públicos a partir de um entrada de objeto chav
 Para adicionar o `constraints` aos projetos, rode o seguinte comando:
 
 ```bash
-yarn add @fredes/constraints
+yarn add constraints
 ```
 
 Importando a biblioteca e aplicando em um exemplo simples de uso:
 
 ```ts
-import constraints from "@fredes/constraints";
+import constraints from "constraints";
 
 const input = { my_key: "my_value" };
 const rules = { key: "my_key", value: "my_value", operation: "equal" };
@@ -88,7 +88,7 @@ const rules = {
 Utilizando operadores simples:
 
 ```ts
-import constraints from "@fredes/constraints";
+import constraints from "constraints";
 
 const input = { my_key: "my_value" };
 const rules = { operation: "not", key: "my_key", value: "another_value_value" };

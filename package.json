@@ -1,6 +1,6 @@
 {
-  "name": "@fredes/ribo",
-  "version": "1.0.0",
+  "name": "ribo",
+  "version": "0.0.0-alpha.1",
   "repository": "git@github.com:RicardoFredes/ribo.git",
   "author": "fredes <ricardofredes@gmail.com>",
   "license": "MIT",

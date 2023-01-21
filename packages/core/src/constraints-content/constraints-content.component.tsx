@@ -1,4 +1,4 @@
-import constraints from "@fredes/constraints";
+import constraints from "constraints";
 import { useEffect, useState } from "react";
 import { ConstraintsProps } from "./constraints-content.types";
 

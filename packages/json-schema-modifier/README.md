@@ -27,13 +27,13 @@ O __JSON Schema Modifier (JSM)__ é um biblioteca criada com o intuito de interp
 Para adicionar o JSM ao seu projeto, rode o seguinte comando:
 
 ```bash
-$ yarn add @fredes/json-schema-Modifier
+$ yarn add json-schema-Modifier
 ```
 
 Agora você pode importar a lib no seu projeto. Segue abaixo um exemplo simples de uso:
 
 ```js
-const jsonSchemaModifier = require("@fredes/json-schema-modifier");
+const jsonSchemaModifier = require("json-schema-modifier");
 
 const data = { user: { name: "André" }, job: { title: "Developer" } };
 const schema = { title: "{{user.name}}", subtitle: "{{job.title}}" };
@@ -131,7 +131,7 @@ A seguir segue um trecho de código servirá como base para os nossos próximos 
 
 ```js
 // index.js
-const jsonSchemaModifier = require("@fredes/json-schema-Modifier");
+const jsonSchemaModifier = require("json-schema-Modifier");
 const { data } = require("./data-mock");
 
 const schema = {};

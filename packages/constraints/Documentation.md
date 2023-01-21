@@ -95,7 +95,7 @@ Abaixo seguem alguns exemplos:
 ## Como usar
 
 ```js
-import Constraints from "@fredes/constraints";
+import Constraints from "constraints";
 import data from "./data.json";
 
 const constraints = new Constraints(data);
