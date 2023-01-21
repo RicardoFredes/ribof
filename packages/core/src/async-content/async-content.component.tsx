@@ -1,4 +1,4 @@
-import jsonSchemaTranspiler from "@fredes/json-schema-modifier";
+import jsonSchemaModifier from "@fredes/json-schema-modifier";
 import useSWR from "swr";
 import {
   AsyncContentComponentProps,
@@ -43,7 +43,7 @@ const AsyncContentData = ({
   ...props
 }: AsyncContentDataProps) => {
   const { children, ...dataProps } =
-    (schema ? jsonSchemaTranspiler(data, schema, modifiersList) : data) || {};
+    (schema ? jsonSchemaModifier(data, schema, modifiersList) : data) || {};
   return (
     <Component {...props} {...dataProps}>
       {parseChildren(children)}
