@@ -8,12 +8,9 @@
   ],
   "scripts": {
     "build": "tsc",
-    "lint": "eslint --cache",
-    "lint:fix": "yarn lint --fix",
     "prepublishOnly": "yarn build",
     "test": "jest --passWithNoTests",
-    "test:watch": "yarn test --watch",
-    "test:coverage": "yarn test --coverage"
+    "test:watch": "yarn test --watch"
   },
   "author": "Ricardo Fredes",
   "private": false,

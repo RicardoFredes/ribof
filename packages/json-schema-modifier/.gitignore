@@ -50,3 +50,7 @@ yarn-error.log*
 # Cache file creation bug
 # See https://youtrack.jetbrains.com/issue/JBR-2257
 .idea/$CACHE_FILE$
+
+# Yarn Integrity file
+.yarn-integrity
+yarn.lock

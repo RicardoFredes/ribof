@@ -12,11 +12,7 @@
     "build": "tsc",
     "test": "jest",
     "test:watch": "yarn test --watch",
-    "test:coverage": "yarn test --coverage",
-    "lint": "eslint .",
-    "lint:fix": "yarn lint --fix",
     "prepare": "",
-    "prepublishOnly": "yarn build",
-    "semantic-release": "semantic-release"
+    "prepublishOnly": "yarn build"
   }
 }
