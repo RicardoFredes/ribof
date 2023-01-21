@@ -8,8 +8,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "yarn build",
-    "test": "jest --passWithNoTests",
+    "test": "jest",
     "test:watch": "yarn test --watch"
   },
   "author": "Ricardo Fredes",

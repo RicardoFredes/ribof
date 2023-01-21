@@ -1,4 +1,4 @@
-import jsonSchemaTranspiler from "@fredes/json-schema-transpiler";
+import jsonSchemaTranspiler from "@fredes/json-schema-modifier";
 import useSWR from "swr";
 import {
   AsyncContentComponentProps,

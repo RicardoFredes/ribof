@@ -11,8 +11,6 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "test:watch": "yarn test --watch",
-    "prepare": "",
-    "prepublishOnly": "yarn build"
+    "test:watch": "yarn test --watch"
   }
 }

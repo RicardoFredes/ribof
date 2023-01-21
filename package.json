@@ -1,11 +1,18 @@
 {
   "name": "@fredes/ribo",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:RicardoFredes/ribo.git",
   "author": "fredes <ricardofredes@gmail.com>",
   "license": "MIT",
+  "files": [
+    "dist/**/*"
+  ],
   "private": true,
+  "scripts": {
+    "test": "jest",
+    "build": "sh scripts/build.sh",
+    "lint": "eslint"
+  },
   "workspaces": [
     "packages/core",
     "packages/json-schema-modifier",
@@ -28,9 +35,7 @@
     "eslint": "^8.11.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^7.0.4",
     "jest": "^27.5.1",
-    "lint-staged": ">=12",
     "prettier": "^2.6.1",
     "semantic-release": "^19.0.2",
     "ts-jest": "^27.1.2",

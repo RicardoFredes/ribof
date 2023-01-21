@@ -22,7 +22,6 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "test:watch": "jest --watch",
-    "semantic-release": "semantic-release"
+    "test:watch": "jest --watch"
   }
 }
